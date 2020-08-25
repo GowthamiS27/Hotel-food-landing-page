@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Chettan+2&family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="magnific-popup.css">
+         
+</head>
+
+<body>
+    
+    <!--NAV BAR-->
+
+   <div id="menu" class="menu">
+       <div id="menu-bar" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+        
+        <ul id="nav" class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+   </div>
+    
+    <!--End of Nav bar-->
+   
+    <!--Header=====-->
+    
+   
+    <header class="header">
+        <div style="background-image: url('/food6.png');">
+       
+            <div class="hero">
+                <h1 class="title">Come on,Pull up your chairs and Taste it</h1>
+
+           <div style="padding-top: 20px;">
+                <a href="#" class="hero-button pulsate">Book a table</a>
+       
+            </div>
+  
+        <button onclick="myFunction()" id="down">Touch me</button>
+        <div id="snackbar">Live,Love,Eat!
+            We are happy to add love to your Delicious Food
+        </div>
+        <script>
+        function myFunction() 
+        {
+          var x = document.getElementById("snackbar");
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+        </script>
+        </div>
+    </div>  
+    </header>
+    
+    <!--End of header-->
+
+    <!--Start of About us-->
+    <section id="about">
+        <div>
+            <h2 class="title-text">About Us</h2>
+        </div>
+
+
+        
+        <div class="about-center" >
+            <!--Start of the article-->
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-utensils"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Healthy food</h2>
+                        <p class="about-info" id="size">Traditional Foods under One Roof for your Goodness!
+                        </p>
+                    </div>
+            </article>
+
+
+           
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-drumstick-bite"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">White Meat</h2>
+                        <p class="about-info" id="size">The smell of roasting meat together with that of burning fruit wood !
+                        </p>
+                    </div>
+            </article>
+
+
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-fish"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Sea food</h2>
+                        <p class="about-info" id="size">I'm on a seafood diet - I see food, I eat it. ...!
+                        </p>
+                    </div>
+            </article>
+
+
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-pepper-hot"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Hot & Spicy</h2>
+                        <p class="about-info" id="size">I have to give up lot of foods that I'm accustomed to eating Spicy food!
+                            
+                        </p>
+                    </div>
+            </article>
+
+            
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-pizza-slice"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">All time Favourite</h2>
+                        <p class="about-info" id="size">First we eat, then we do everything else,coz its favorite!
+                        </p>
+                    </div>
+            </article>
+
+
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-cookie"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle"> Cookies</h2>
+                        <p class="bout-info" id="size">Fortune cookies are a good idea. It can make your day a little better !
+                           </p>
+                    </div>
+            </article>
+            
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-hot-tub"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Drinks</h2>
+                        <p class="bout-info" id="size">Have a drink with pure love and infinite happiness!
+                        </p>
+                    </div>
+            </article>
+
+
+            <article class="about">
+                <div class="about-icon">
+                    <i class="fas fa-apple-alt"></i></div>
+                    <div class="about-text">
+                        <h2 class="about-subtitle">Health Drinks</h2>
+                        <p class="bout-info" id="size">My go-to drink is a mix of kale, apple, grapes and other healthy stuff!
+                        </p>
+                    </div>
+            </article>
+            
+            
+
+            <!--End of the article-->
+
+        </div>
+    </section>
+
+    <!--End of about us-->
+
+
+    <!---------------------Menu Section---------------->
+    <section class="menu" id="menu">
+        <div style="width: 100%;">
+        <article class="menu-image">
+            <img src="pizza.png" alt="food6" id="increase">
+
+
+            <!--<img src="food3.jpg" alt="food 3">
+            <img src="food2.png" alt="food 2">
+            </div>-->
+
+
+
+        </article>  
+        </div>   
+        <article class="menu-text">
+            <div class="menu-text-center">
+                <div id="increase-size"></div>
+                <h1 id="inc">Want to taste a Delicious food?</h1>
+                <p id="inc1">Come on, Pull up your chairs and have fun with your lovely family members by tasting delicious food!</p>
+                   <p id="inc1"> We care for you!</p>
+                    <p id="inc1">We serve for you!</p>
+                    <p id="inc1">We are for you!
+                </p>
+                <a href="#" id="inc2" >Explore</a>
+            </div>
+        </article>
+    </section>
+ <!--=====End of Menu Section---->
+    <!--Social Icon-->
+
+    <section id="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    </section>
+
+
+<!--End of Social Icons-->
+<!--======Numbers======----->
+
+<div class="background">
+    <section id="numbers" >
+
+  
+        <article class="number" >
+            <i class="fas fa-cloud-meatball"></i>
+            <p>50</p>
+            <h3>Meat Dishes</h3>
+        </article>
+
+
+        <article class="number">
+            <i class="fas fa-cheese"></i>
+            <p>35</p>
+            <h3>Cheese Dishes</h3>
+        </article>
+
+
+        <article class="number">
+            <i class="fas fa-pizza-slice" ></i>
+            <p>25</p>
+            <h3>Pizzas</h3>
+        </article>
+
+
+        <article class="number">
+            <i class="fas fa-ice-cream"></i>
+            <p>50</p>
+            <h3>Desserts</h3>
+        </article>
+
+
+    </section>
+</div>
+
+
+  <!--======Card Section--=======-->
+    <section id="food">
+        <div>
+            <h2 class="title-text1" id="alig">Food Fusion</h2>
+        </div>
+        <div class="food-container">
+            <!--article-->
+        <article class="food-card">
+            <img src="juice1.png" class="food-img"  alt="glass pic">
+            <div class="img-text">
+                <h1>Brunch</h1>
+            </div>
+                
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">25</i>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="food-btn">Order Now</button>
+                </div>
+            </div>
+        </article>
+
+
+
+
+        <article class="food-card">
+            <img src="egg1.png" class="food-img" alt="glass pic">
+            <div class="img-text">
+                <h1>Breakfast</h1>
+            </div>
+                
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">25</i>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="food-btn">Order Now</button>
+                </div>
+            </div>
+        </article>
+
+
+        <article class="food-card">
+            <img src="meals3.png" class="food-img" alt="glass pic">
+            <div class="img-text">
+                <h1>Lunch</h1>
+            </div>
+                
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">25</i>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="food-btn">Order Now</button>
+                </div>
+            </div>
+        </article>
+
+
+
+        <article class="food-card">
+            <img src="burger.png" class="food-img" alt="glass pic">
+            <div class="img-text">
+                <h1>Dinner</h1>
+            </div>
+                
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">25</i>
+                </div>
+                <div class="footer-btn">
+                    <button type="button" class="food-btn">Order Now</button>
+                </div>
+            </div>
+        </article>
+        <!--End of Article-->
+        </div>
+    </section>
+
+  <!--End of Card Section-->
+
+  <!--Gallery-->
+
+  <section id="gallery">
+      <div>
+        <h2 class="title-text" id="text">Main Cuisines</h2>
+      </div>
+      <div id="gallery-center">
+          <article class="gallery-item">
+              <a href="c1.png">
+                  <img src="c1.png" alt="food">
+              </a>
+          </article>
+
+          <article class="gallery-item">
+            <a href="c2.png">
+                <img src="c2.png" alt="food">
+            </a>
+        </article>
+
+        <article class="gallery-item">
+            <a href="c3.png">
+                <img src="c3.png" alt="food">
+            </a>
+        </article>
+
+        <article class="gallery-item">
+            <a href="c4.png">
+                <img src="c4.png" alt="food">
+            </a>
+        </article>
+
+        <article class="gallery-item">
+            <a href="c5.png">
+                <img src="c5.png" alt="food">
+            </a>
+        </article>
+
+        <article class="gallery-item">
+            <a href="c6.png">
+                <img src="c6.png" alt="food">
+            </a>
+        </article>
+
+        <article class="gallery-item">
+            <a href="c7.png">
+                <img src="c7.png" alt="food">
+            </a>
+        </article>
+
+
+        <article class="gallery-item">
+            <a href="c8.png">
+                <img src="c8.png" alt="food">
+            </a>
+        </article>
+      </div>
+
+
+  </section>
+  <!--end of gallery-->
+  <!--footer-->
+
+  <footer class="footer">
+      <div class="section-center">
+          <p class="text" id="two">
+              &copy;Gowthami
+          </p>
+      </div>
+  </footer>
+  
+ 
+
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="onClickMenu.js"></script>
+    <script src="magnific.js"></script>
+</body>
+</html>
+
+
+    
